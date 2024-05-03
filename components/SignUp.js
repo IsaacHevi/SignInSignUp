@@ -1,6 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity, Image } from 'react-native';
 
-const SignUp = () => {
+const SignUp = ( { navigation }) => {
   return (
     <View style={styles.container}>
     <Text style={styles.signInText}>Sign up</Text>
@@ -55,7 +55,7 @@ const SignUp = () => {
           <Image source={require('../assets/facebook.png')} style={styles.socialIcon} />
           <Image source={require('../assets/twitter.png')} style={styles.socialIcon} />
         </View>
-        <TouchableOpacity onPress={() => navigation.navigate('SignUp')}>
+        <TouchableOpacity onPress={() => navigation.navigate('SignIn')}>
         <Text style={styles.signUpText}>Already have an account? <Text style={{ color: '#2A27AF' }}>Sign In</Text></Text>
         </TouchableOpacity>
       </View>
@@ -87,7 +87,7 @@ const styles = {
   },
   signInText: {
     color: '#ffffff',
-    marginTop: 24,
+    marginTop: 124,
     marginBottom: 0,
     marginLeft: 10,
     paddingHorizontal: 20,
