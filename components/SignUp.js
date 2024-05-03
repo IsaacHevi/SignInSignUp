@@ -1,6 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity, Image } from 'react-native';
 
-const SignIn = () => {
+const SignUp = () => {
   return (
     <View style={styles.container}>
     <Text style={styles.signInText}>Sign up</Text>
@@ -178,4 +178,4 @@ const styles = {
   },
 };
 
-export default SignIn;
+export default SignUp;
