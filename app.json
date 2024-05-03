@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "signinsignup",
-    "slug": "snack-0ef66e6a-0395-463e-b146-6da51df66983",
+    "name": "SignIn SignUp",
+    "slug": "signin-signup",
+    "description": "This is the UI of the Sign in and Sign up pages of an app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/user.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/user.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
