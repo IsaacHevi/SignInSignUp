@@ -12,7 +12,6 @@ This is a simple Sign In and Sign Up UI built with React Native.
 ## Technologies Used
 - React Native
 - JavaScript
-- CSS
 
 ## Screenshots
 ![WEB](https://github.com/IsaacHevi/SignInSignUp/assets/142832860/e6480bd5-e061-4858-a7f8-0e7bdfa0bf68)
