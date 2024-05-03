@@ -1,8 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity, Image } from 'react-native';
 
-
-
-const SignIn = () => {
+const SignIn = ({ navigation }) => {
   return (
     <View style={styles.container}>
     <Text style={styles.signInText}>Sign in</Text>
@@ -78,7 +76,7 @@ const styles = {
   },
   signInText: {
     color: '#ffffff',
-    marginTop: 24,
+    marginTop: 110,
     marginBottom: 0,
     marginLeft: 10,
     paddingHorizontal: 20,
